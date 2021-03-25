@@ -80,12 +80,27 @@ function branco() {
     aviso.style.display = 'block';
     numeros.innerHTML = '';
     descricao.innerHTML = '<div class="aviso--grande pisca">VOTO EM BRANCO</div>';
+    lateral.innerHTML = '';
 }
 function corrige() {
     comecarEtapa();
 }
 function confirma() {
-    alert("Clicou em CONFIRMA!");
+    let etapa = etapas[etapaAtual];
+
+    let votoConfirmado = false;
+
+    if(votoBranco === true) {
+        votoConfirmado = true;
+        console.log("Confirmando como BRANCO");
+    } else if(numero.length === etapa.numeros) {
+        votoConfirmado = true;
+        console.log("Confirmando como " +numero);
+    }
+
+    if(votoConfirmado) {
+        
+    }
 }
 
 comecarEtapa();
