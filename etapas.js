@@ -27,12 +27,12 @@ let etapas = [
     candidatos: [
       {
         numero: '99',
-        nome: 'Ciclano',
-        partido: 'ABC',
-        vice: 'Cic',
+        nome: 'CHARLÃO DA BAIXADA',
+        partido: 'PSL',
+        vice: 'ZÉ MÁRIO',
         fotos: [
           { url:'99.jpg', legenda: 'Prefeito' },
-          { url:'99_2.jpg', legenda: 'Vice-Prefeito', small: true }
+          { url:'99.jpg', legenda: 'Vice-Prefeito', small: true }
         ]
       },
       {
