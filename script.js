@@ -99,7 +99,12 @@ function confirma() {
     }
 
     if(votoConfirmado) {
-        
+        etapaAtual++;
+        if(etapas[etapaAtual] !== undefined) {
+            comecarEtapa();
+        } else {
+            console.log("FIM");
+        }
     }
 }
 
